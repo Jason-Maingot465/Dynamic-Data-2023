@@ -1,0 +1,30 @@
+{
+    "title":"Welcome to Miami - From data source",
+    "slideshow":[
+        "/img/slides/slide-1.jpg",
+        "/img/slides/slide-2.jpg",
+        "/img/slides/slide-3.jpg"
+    ],
+    "services":[
+        {
+            "title":"Transportation",
+            "intro":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, cupiditate labore? Voluptate voluptates veniam ipsum voluptatum sint dolorem esse sit distinctio, totam voluptas quod aliquam sunt eligendi ullam placeat consequuntur!",
+            "lists":[
+                "Service 1",
+                "Service 2",
+                "Service 3"
+            ],
+            "image":"/img/homepage/transportation.jpg"
+        },
+        {
+            "title":"Miami Tours",
+            "intro":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, cupiditate labore? Voluptate voluptates veniam ipsum voluptatum sint dolorem esse sit distinctio, totam voluptas quod aliquam sunt eligendi ullam placeat consequuntur!",
+            "lists":[
+                "Service 1",
+                "Service 2",
+                "Service 3"
+            ],
+            "image":"/img/homepage/tours.jpg"
+        }
+    ]
+}
