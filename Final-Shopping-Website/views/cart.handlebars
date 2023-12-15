@@ -1,0 +1,25 @@
+<div class="cart-page">
+    <h1>Your Cart</h1>
+    {{#each cartProducts}}
+        <div class="cart-product">
+            <img class="cart-product-image" src="/img/{{this.[0].images.[0].image}}" alt="">
+            <div class="cart-product-info">
+                <h3>{{this.[0].name}}</h3>
+                <h3>{{this.[0].short-description}}</h3>
+                <h3>{{this.[0].price}}</h3>
+            </div>
+        </div>
+    {{/each}}
+    <form class="cart-checkout-form" method="POST" action="/checkout">
+        <label for="customername">Name:</label><br>
+        <input type="text" name="customername" value="First and Last Name"><br>
+        <label for="customeraddress">Address:</label><br>
+        <input type="text" name="customeraddress" value="Your Address"><br>
+        <label for="customeremail">Email:</label><br>
+        <input type="email" name="customeremail" value="youremail@something.com"><br>
+        <label for="customerphone">Phone Number:</label><br>
+        <input type="text" name="customerphone" value="(xxx)xxx-xxxx"><br>
+        <input type="submit" value="Checkout">
+    </form>
+</div>
+

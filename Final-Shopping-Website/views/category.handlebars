@@ -1,0 +1,17 @@
+<div class="category-page">
+    <div class="category-page-banner">
+        <img src="/img/{{categoryInfo.[0].banner-image}}" alt="">
+        <h1>{{categoryInfo.[0].name}}</h1>
+    </div>
+    <div class="category-page-products">
+        {{#each productInfos}}
+            <div class="category-page-product">
+                <a href="/product/{{this.id}}">
+                    <img src="/img/{{this.images.[0].image}}" alt="">
+                    <h3>{{this.name}}</h3>
+                    <h3>{{this.price}}</h3>
+                </a>
+            </div>
+        {{/each}}
+    </div>
+</div>

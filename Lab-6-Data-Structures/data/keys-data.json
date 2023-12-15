@@ -1,0 +1,76 @@
+{
+    "title":"Hardrock - From data source",
+    "description":"Lorem ipsum dolor whatever",
+    "slideshow":[
+        "/img/slides/home-1.jpg",
+        "/img/slides/home-2.jpg",
+        "/img/slides/home-3.jpg"
+    ],
+    "services":[
+        {
+            "title":"Transportation",
+            "intro":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, cupiditate labore? Voluptate voluptates veniam ipsum voluptatum sint dolorem esse sit distinctio, totam voluptas quod aliquam sunt eligendi ullam placeat consequuntur!",
+            "lists":[
+                "Service 1",
+                "Service 2",
+                "Service 3"
+            ],
+            "image":"/img/homepage/transportation.jpg",
+            "show":"show"
+        },
+        {
+            "title":"Miami Tours",
+            "intro":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, cupiditate labore? Voluptate voluptates veniam ipsum voluptatum sint dolorem esse sit distinctio, totam voluptas quod aliquam sunt eligendi ullam placeat consequuntur!",
+            "lists":[
+                "Service 1",
+                "Service 2",
+                "Service 3"
+            ],
+            "image":"/img/homepage/tours.jpg"
+        }
+    ],
+    "packages":[
+        {
+            "title":"Beach Day",
+            "image":"/img/homepage/beach.jpg",
+            "text":"A wonderful day at the beach",
+            "price":"1500",
+            "duration":"1 day"
+        },
+        {
+            "title":"Zoo Weekend",
+            "image":"/img/homepage/zoo.jpg",
+            "text":"A wonderful weekend at the zoo",
+            "price":"500",
+            "duration":"3 day"
+        },
+        {
+            "title":"Islamorada trip",
+            "image":"/img/homepage/island.jpg",
+            "text":"A wonderful few days at islamorada",
+            "price":"3300",
+            "duration":"4 day"
+        },
+        {
+            "title":"Paddleboarding",
+            "image":"/img/homepage/paddleboarding.jpg",
+            "text":"A wonderful paddleboarding",
+            "price":"400",
+            "duration":"1 day"
+        },
+        {
+            "title":"Segway tour",
+            "image":"/img/homepage/segway.jpg",
+            "text":"A wonderful day touring SoBe",
+            "price":"300",
+            "duration":"1 day"
+        },
+        {
+            "title":"Kayak",
+            "image":"/img/homepage/kayak.jpg",
+            "text":"A wonderful day at the beach, kayaking",
+            "price":"100",
+            "duration":"1 day"
+        }
+    ]
+}

@@ -1,0 +1,140 @@
+/* Homepage */
+.homepage {
+    margin: auto;
+    width: 960px;
+}
+
+/* Product Pages */
+.product-page-top {
+    width: 960px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: lightgray;
+    display: flex;
+}
+.product-page-images {
+    width: 480px;
+    height: 600px;
+}
+.product-page-big-image {
+    width: 480px;
+    height: 480px;
+}
+.product-page-small-images {
+    width: 480px;
+    height: 120px;
+    display: flex;
+}
+.product-page-small-image {
+    width: 120px;
+    height: 120px;
+}
+.product-page-info {
+    width: 480px;
+    height: 600px;
+    padding: 16px;
+}
+.product-page-recommended {
+    width: 960px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+/* Category Pages */
+.category-page {
+    width: 960px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+.category-page-banner {
+    margin-bottom: 32px;
+    box-sizing: border-box;
+}
+.category-page-banner h1 {
+    font-size: 64px;
+    text-align: center;
+}
+.category-page-products {
+    width: 960px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.category-page-product {
+    width: 240px;
+    border: 2px solid black;
+    margin-top: 32px;
+    background: lightgray;
+}
+.category-page-product img {
+    height: 240px;
+    width: 240px;
+}
+.category-page-product h3 {
+    text-align: center;
+}
+
+/* Cart Page */
+.cart-page {
+    width: 960px;
+    background: lightgray;
+}
+.cart-product {
+    box-sizing: border-box;
+    border: 2px solid black;
+    display: flex;
+}
+.cart-product-image {
+    height: 192px;
+    width: 192px;
+}
+.cart-product-info {
+    padding: 32px;
+}
+
+/* Nav Partial */
+.nav-partial {
+    width: 960px;
+    margin-bottom: 64px;
+    margin-top: 32px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-title {
+    text-align: center;
+    margin: auto;
+}
+.nav-items {
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-item {
+    padding: 16px;
+}
+.nav-item:hover {
+    background: lightgray;
+}
+
+/* Thank You */
+.thankyou{
+    width: 960px;
+}
+.thankyou h1 {
+    text-align: center;
+}
+
+/* About */
+.about-page {
+    width: 960px;
+    padding: 32px;
+    background: lightgray;
+}
+.about-page p {
+    font-size: 32px;
+}

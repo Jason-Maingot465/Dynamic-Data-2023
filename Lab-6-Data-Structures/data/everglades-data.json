@@ -1,0 +1,96 @@
+{
+    "title":"Welcome to South Point - From data source",
+    "description":"Lorem ipsum dolor whatever",
+    "slideshow":[
+        "/img/slides/everglades-1.jpg",
+        "/img/slides/everglades-2.jpg",
+        "/img/slides/everglades-3.jpg"
+    ],
+    "services":[
+        {
+            "title":"Transportation",
+            "intro":"We provide busses to the national park, as well as transportation when in the park!",
+            "lists":[
+                "Everglades tour bus",
+                "Rental Golf Cart",
+                "Bike Rentals"
+            ],
+            "image":"/img/evergladepage/transportation.jpg",
+            "show":"show"
+        },
+        {
+            "title":"Everglades Tours",
+            "intro":"Go around various wildlife tours, learn about the everglades and its unique ecosystem!",
+            "lists":[
+                "Shark Valley Tours",
+                "Wildlife Expo",
+                "Plant and History Tour"
+            ],
+            "image":"/img/evergladepage/tours.jpg"
+        },
+        {
+            "title":"Camping",
+            "intro":"Stay overnight on our campgrounds! See the stars and hear the symphony of noises of nature at night!",
+            "lists":[
+                "Camp ground reservation",
+                "Tent and equipment rental",
+                "Camping assistants"
+            ],
+            "image":"/img/evergladepage/camping.jpg"
+        },
+        {
+            "title":"Nike Base Tour",
+            "intro":"Visit a historical army site, now decommisioned! Learn the history behind the intersting site.",
+            "lists":[
+                "Guided tour",
+                "Museum",
+                "Transporation to and From"
+            ],
+            "image":"/img/evergladepage/tours2.jpg"
+        }
+    ],
+    "packages":[
+        {
+            "title":"All About Birds",
+            "image":"/img/evergladepage/heron.jpg",
+            "text":"An insight to the birds of the everglades",
+            "price":"200",
+            "duration":"1 day"
+        },
+        {
+            "title":"Crocodile Crossing",
+            "image":"/img/evergladepage/crocodile.jpg",
+            "text":"An experience with crocodiles and alligators",
+            "price":"500",
+            "duration":"1 day"
+        },
+        {
+            "title":"Camping Trip",
+            "image":"/img/evergladepage/camping.jpg",
+            "text":"A wonderful stay in the everglades",
+            "price":"1000",
+            "duration":"3 day"
+        },
+        {
+            "title":"Hiking",
+            "image":"/img/evergladepage/scenery.jpg",
+            "text":"A trip through the best scenery in the everglades",
+            "price":"400",
+            "duration":"1 day"
+        },
+        {
+            "title":"Fishing",
+            "image":"/img/evergladepage/fishing.jpg",
+            "text":"Go fishing in the everglades!",
+            "price":"50",
+            "duration":"1 day"
+        },
+        {
+            "title":"Conservation Convention",
+            "image":"/img/evergladepage/conference.jpg",
+            "text":"A convention discussing the conservation of the park",
+            "price":"100",
+            "duration":"1 day"
+        }
+    ]
+}

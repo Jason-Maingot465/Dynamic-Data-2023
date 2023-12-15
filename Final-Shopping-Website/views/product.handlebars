@@ -1,0 +1,53 @@
+<div class="product-page"> 
+    <div class="product-page-top">
+        <div class="product-page-images">
+            <img class="product-big-image" src="/img/{{productInfo.[0].images.[0].image}}" alt="">
+            <div class="product-page-small-images">
+                <img class="product-small-image" src="/img/{{productInfo.[0].images.[1].image}}" alt="">
+                <img class="product-small-image" src="/img/{{productInfo.[0].images.[2].image}}" alt="">
+                <img class="product-small-image" src="/img/{{productInfo.[0].images.[3].image}}" alt="">
+                <img class="product-small-image" src="/img/{{productInfo.[0].images.[4].image}}" alt="">
+            </div>
+        </div>
+        <div class="product-page-info">
+            <h1>Item Name: {{productInfo.[0].name}}</h1>
+            <h1>Price: {{productInfo.[0].price}}</h1>
+            <h1>Description: {{productInfo.[0].long-description}}</h1>
+            <form method="POST" action="/cart">
+                <input type="hidden" id="productId" name="productId" value="{{productInfo.[0].id}}">
+                <input type="submit" value="Add to Cart">
+            </form>
+        </div>
+    </div>
+    <h3>Other Recommended Products:</h3>
+    <div class="product-page-recommended">
+        <div class="category-page-product">
+            <a href="/product/{{recommendedInfo.[0].id}}">
+                <img src="/img/{{recommendedInfo.[0].images.[0].image}}" alt="">
+                <h3>{{recommendedInfo.[0].name}}</h3>
+                <h3>{{recommendedInfo.[0].price}}</h3>
+            </a>
+        </div>
+        <div class="category-page-product">
+            <a href="/product/{{recommendedInfo.[1].id}}">
+                <img src="/img/{{recommendedInfo.[1].images.[0].image}}" alt="">
+                <h3>{{recommendedInfo.[1].name}}</h3>
+                <h3>{{recommendedInfo.[1].price}}</h3>
+            </a>
+        </div>
+        <div class="category-page-product">
+            <a href="/product/{{recommendedInfo.[2].id}}">
+                <img src="/img/{{recommendedInfo.[2].images.[0].image}}" alt="">
+                <h3>{{recommendedInfo.[2].name}}</h3>
+                <h3>{{recommendedInfo.[2].price}}</h3>
+            </a>
+        </div>
+        <div class="category-page-product">
+            <a href="/product/{{recommendedInfo.[3].id}}">
+                <img src="/img/{{recommendedInfo.[3].images.[0].image}}" alt="">
+                <h3>{{recommendedInfo.[3].name}}</h3>
+                <h3>{{recommendedInfo.[3].price}}</h3>
+            </a>
+        </div>
+    </div>
+</div>

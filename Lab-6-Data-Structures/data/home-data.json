@@ -1,30 +1,97 @@
 {
-    "title":"Welcome to Miami - From data source",
+    "title":"Welcome to Miami!",
+    "description":"Miami is a wonderful place! Full of life and sunshine, there are so many things to do. Visit our amazing beaches, stay at luxury resorts, eat amazing food, see the famous Miami Zoo, or go see the Everglades! You can do all of these for a reasonable price with our help!",
     "slideshow":[
-        "/img/slides/slide-1.jpg",
-        "/img/slides/slide-2.jpg",
-        "/img/slides/slide-3.jpg"
+        "/img/slides/home-1.jpg",
+        "/img/slides/home-2.jpg",
+        "/img/slides/home-3.jpg"
     ],
     "services":[
         {
             "title":"Transportation",
-            "intro":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, cupiditate labore? Voluptate voluptates veniam ipsum voluptatum sint dolorem esse sit distinctio, totam voluptas quod aliquam sunt eligendi ullam placeat consequuntur!",
+            "intro":"We provide a multitude of diferent transportation services, as well as resources for alternative transport methods we dont provide! Whether you are alone or in a group we can provide transport for parties of all sizes!",
             "lists":[
-                "Service 1",
-                "Service 2",
-                "Service 3"
+                "Rental Cars",
+                "Rideshare services",
+                "Taxis",
+                "Tour buses"
             ],
-            "image":"/img/homepage/transportation.jpg"
+            "image":"/img/homepage/transportation.jpg",
+            "show":"show"
         },
         {
             "title":"Miami Tours",
-            "intro":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, cupiditate labore? Voluptate voluptates veniam ipsum voluptatum sint dolorem esse sit distinctio, totam voluptas quod aliquam sunt eligendi ullam placeat consequuntur!",
+            "intro":"We provide guided tours of our wonderful cities! See the best places to visit on our tours. Visit historical landmarks, or do a tour through downtown!",
             "lists":[
-                "Service 1",
-                "Service 2",
-                "Service 3"
+                "Bus Tours",
+                "Guide Tours",
+                "Self-guided Tours"
             ],
             "image":"/img/homepage/tours.jpg"
+        },
+        {
+            "title":"Miami Restaurants",
+            "intro":"Visit the best restaurants the culinary scene in Miami has to offer! From michelin star restaurants to famous local dives, from asian fusion to mexican we have it all!",
+            "lists":[
+                "Restaurant recommendations",
+                "Select discounts",
+                "Garunteed reservations"
+            ],
+            "image":"/img/homepage/food.jpg"
+        },
+        {
+            "title":"Miami Shopping",
+            "intro":"Go to our extensive shopping malls and unique stores all around the city! Buy authentic souvineers or designer clothing, it is up to you!",
+            "lists":[
+                "Extensive catalog of stores",
+                "Select discounts",
+                "Exclusive souvineers"
+            ],
+            "image":"/img/homepage/mall.jpg"
+        }
+    ],
+    "packages":[
+        {
+            "title":"Beach Packages",
+            "image":"/img/homepage/beach.jpg",
+            "text":"An assorment of beach experiences",
+            "price":"100 - $10,000",
+            "duration":"1-7 days"
+        },
+        {
+            "title":"Zoo Trips",
+            "image":"/img/homepage/zoo.jpg",
+            "text":"An assortment of thing to do at the zoo",
+            "price":"50 - $3,000",
+            "duration":"1-2 days"
+        },
+        {
+            "title":"Florida Keys Trip",
+            "image":"/img/homepage/island.jpg",
+            "text":"A variety of experinces in the Florida keys",
+            "price":"500 - $5,000",
+            "duration":"2-4 days"
+        },
+        {
+            "title":"Watersports",
+            "image":"/img/homepage/paddleboarding.jpg",
+            "text":"A variety of watersports, equipment included",
+            "price":"100 - $500",
+            "duration":"1 day"
+        },
+        {
+            "title":"City Tour",
+            "image":"/img/homepage/segway.jpg",
+            "text":"A daylong tour of the city, where you go is your choice!",
+            "price":"300 - $500",
+            "duration":"1 day"
+        },
+        {
+            "title":"Everglades Adventure",
+            "image":"/img/homepage/kayak.jpg",
+            "text":"Explore the wilderness of the Everglades!",
+            "price":"100+",
+            "duration":"3 days"
         }
     ]
 }

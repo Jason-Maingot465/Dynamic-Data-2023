@@ -1,0 +1,96 @@
+{
+    "title":"The pristine beaches of Miami",
+    "description":"Miami has a plethora of beautiful beaches. Whether you like a small quiet place to relax, or a lively beach full of other people we have it! Go swimming, diving, boating, and fishing! There are plenty of things to do!",
+    "slideshow":[
+        "/img/slides/beach-1.jpg",
+        "/img/slides/beach-2.jpg",
+        "/img/slides/beach-3.jpg"
+    ],
+    "services":[
+        {
+            "title":"Equipment Provided",
+            "intro":"We provide any equipment you would ever need on a beach day! From towels and sunscreen to snorkle equipment and surfboards!",
+            "lists":[
+                "Towels and Sunscreen",
+                "Watersports Equipment",
+                "Water Toys for Rent"
+            ],
+            "image":"/img/beachpage/equipment.jpg",
+            "show":"show"
+        },
+        {
+            "title":"Fishing",
+            "intro":"Rent a boat, fishing rods, and bait to fish to your hearts desire!",
+            "lists":[
+                "Boat with captain available for rent",
+                "Rods available for rent / purchase",
+                "Bait must be bought"
+            ],
+            "image":"/img/beachpage/fishing.jpg"
+        },
+        {
+            "title":"Beach Activities",
+            "intro":"We host a variety of non ocean based activities at the request of outr customers!",
+            "lists":[
+                "Beach volleyball",
+                "Sandcastle building contest",
+                "Beach umbrellas for rent"
+            ],
+            "image":"/img/beachpage/volleyball.jpg"
+        },
+        {
+            "title":"Food and Drink",
+            "intro":"Our staff will deliver local food and drinks directly to you on the beach. No need to leave that pearly white sand!",
+            "lists":[
+                "Restaurant delivery",
+                "Local restaurant reservation",
+                "Alcoholis drinks available"
+            ],
+            "image":"/img/beachpage/beach-food.jpg"
+        }
+    ],
+    "packages":[
+        {
+            "title":"Paddleboarding",
+            "image":"/img/beachpage/paddleboard.jpg",
+            "text":"A paddlebaording experience",
+            "price":"50",
+            "duration":"1 day"
+        },
+        {
+            "title":"Fishing Expedition",
+            "image":"/img/beachpage/fishing2.jpg",
+            "text":"A two day fishing outting",
+            "price":"500",
+            "duration":"2 day"
+        },
+        {
+            "title":"Glass bottom boat tour",
+            "image":"/img/beachpage/boat.jpg",
+            "text":"A trip to see the ocean bottom through the bottom of a boat",
+            "price":"700",
+            "duration":"2 day"
+        },
+        {
+            "title":"Kayaking",
+            "image":"/img/beachpage/kayak.jpg",
+            "text":"Kayak through the pristine waters around Miami",
+            "price":"200",
+            "duration":"1 day"
+        },
+        {
+            "title":"Paragliding",
+            "image":"/img/beachpage/paragliding.jpg",
+            "text":"A wonderful paragliding experience",
+            "price":"300",
+            "duration":"1 day"
+        },
+        {
+            "title":"Scuba diving trip",
+            "image":"/img/beachpage/scuba.jpg",
+            "text":"Includes training and lisence",
+            "price":"1000",
+            "duration":"2 day"
+        }
+    ]
+}

@@ -9,17 +9,22 @@
     <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="primary-color-light-bg primary-color-light monserrat">
 
-    <div class="container-lg" class="white-bg">
+    <div class="container-fluid primary-color-bg">
         {{>navbar}}
-        <header>
-            
-        </header>
+        {{#if data.slideshow}}
+            <div class="owl-slideshow owl-carousel owl-theme">
+            {{#each data.slideshow}}
+            <div class="item"><img class="img-fluid" src="{{this}}" alt=""></div>
+            {{/each}}
+            </div>
+        {{/if}}
+    </div>
 
+    <div class="container-lg white-bg">
         {{!-- only odd thing here is this expression --}}
         {{{body}}}
-
         <p>This is in the main layout</p>
     </div>
 
@@ -30,7 +35,8 @@
 
     <script>
         $(function() {
-            $('.owl-carousel').owlCarousel({
+            //slideshow
+            $('.owl-slideshow').owlCarousel({
                 loop:true,
                 margin:10,
                 nav:true,
@@ -45,7 +51,24 @@
                      items:1
                     }
                 }
-            })
+            });
+            //packages
+            $('.owl-packages').owlCarousel({
+                loop:true,
+                margin:10,
+                nav:true,
+                responsive:{
+                    0:{
+                     items:1
+                    },
+                    600:{
+                       items:2
+                    },
+                    1000:{
+                     items:3
+                    }
+                }
+            });
         });
     </script>
 

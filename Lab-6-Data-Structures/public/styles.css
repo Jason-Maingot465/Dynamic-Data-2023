@@ -15,8 +15,65 @@
 }
 
 body {
-    background-color: #CCCCCC;
+    scroll-behavior: smooth;
 }
+
 .white-bg {
     background-color: #FFFFFF;
+}
+
+.primary-color {
+    color: #3C3176;
+}
+
+.primary-color-light, nav.secondary-color-light:hover {
+    color: #857DB1;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #D4A26A;
+    background-color: #857DB1;
+}
+
+.primary-color-bg {
+    background-color: #3C3176;
+}
+
+.primary-color-light-bg {
+    background-color: #857DB1;
+}
+
+.secondary-color {
+    color: #804D15;
+}
+
+.secondary-color-light {
+    color: #D4A26A;
+}
+
+.secondary-color-bg {
+    background-color: #804D15;
+}
+
+.secondary-color-light-bg {
+    background-color: #D4A26A;
+}
+
+/* Remove owl-nav previous and next buttons*/
+.owl-nav {
+    display: none;
+}
+
+.section-divider {
+    padding: 1rem;
+}
+
+.gallery-img img {
+    object-fit: cover;
+    height: 20rem;
+    aspect-ratio: 1 / 1;
+}
+
+footer {
+    padding: 3rem;
 }

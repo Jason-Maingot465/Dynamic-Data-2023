@@ -20,22 +20,32 @@ app.use(express.static(__dirname + "/public"))
 
 const port = process.env.port || 3000
 
+const gallery = require('./data/gallery.json');
+
 // Routes go before 404 and 500
 app.get('/', (req,res) => {
     var data = require("./data/home-data.json")
-    res.render('page',{data})
+    res.render('page',{data, gallery})
 })
-app.get('/about', (req,res) => {
-    res.render('about', {
-         title:"About Miami",
-         pageTitle:"About Miami Travel",
-         image:"miami-2.jpg",
-         description:"Miami is a beautiful city"
-        })
+
+app.get('/zoo', (req,res) => {
+    var data = require("./data/zoo-data.json")
+    res.render('page',{data, gallery})
 })
-// This gives error, request should be req and response should be res or vice versa
-app.get('/nightlife', (req,res) => {
-    res.render('nightlife')
+
+app.get('/everglades', (req,res) => {
+    var data = require("./data/everglades-data.json")
+    res.render('page',{data, gallery})
+})
+
+app.get('/beach', (req,res) => {
+    var data = require("./data/beach-data.json")
+    res.render('page',{data, gallery})
+})
+
+app.get('/keys', (req,res) => {
+    var data = require("./data/keys-data.json")
+    res.render('page',{data, gallery})
 })
 
 // Error handling -> app.use() basic express route

@@ -1,0 +1,42 @@
+<div class="container-fluid homepage">
+    {{!-- Item Slideshow --}}
+    <div class="owl-slideshow owl-carousel owl-theme">
+        {{#each productData.products}}
+            {{#if this.slideshow}}
+                <div class="item">
+                    <img class="img-fluid" src="/img/{{this.images.[0].image}}" alt="">
+                </div>
+            {{/if}}
+        {{/each}}
+    </div>
+
+    {{!-- Featured Products Slider --}}
+    <h1>Featured Products</h1>
+    <div class="owl-slider owl-carousel owl-theme">
+        {{#each productData.products}}
+            {{#if this.featured}}
+                <div class="item">
+                    <a href="/product/{{this.id}}">
+                        <img class="img-fluid" src="/img/{{this.images.[0].image}}" alt="">
+                        <p>{{this.name}}</p>
+                    </a>
+                </div> 
+            {{/if}}
+        {{/each}}
+    </div>
+
+    {{!-- Featured Categories --}}
+    <h1>Featured Categories</h1>
+    <div class="owl-slider owl-carousel owl-theme">
+        {{#each categoryData.categories}}
+            {{#if this.featured}}
+                <div class="item">
+                    <a href="/category/{{this.url}}">
+                        <img class="img-fluid" src="/img/{{this.image}}" alt="">
+                    </a>
+                    <p>{{this.name}}</p>
+                </div>
+            {{/if}}
+        {{/each}}
+    </div>
+</div>

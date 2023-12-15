@@ -1,0 +1,26 @@
+{
+    "categories":
+    [
+        {
+            "name":"Fruit",
+            "url":"fruit",
+            "featured":true,
+            "image": "fruits.jpg",
+            "banner-image":"fruit-banner.jpg"
+        },
+        {
+            "name":"Meat",
+            "url":"meat",
+            "featured":true,
+            "image": "meats.jpg",
+            "banner-image":"meat-banner.jpg"
+        },
+        {
+            "name":"Dessert",
+            "url":"dessert",
+            "featured":true,
+            "image": "desserts.jpg",
+            "banner-image":"dessert-banner.jpg"
+        }
+    ]
+}

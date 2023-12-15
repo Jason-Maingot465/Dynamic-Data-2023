@@ -1,0 +1,96 @@
+{
+    "title":"Miami Zoo",
+    "description":"See amazing animals from all over the world. Take part in fun family activities and learn more about the wide world around us! The Miami Zoo is renown for its extensive and entertaining atmosphere!",
+    "slideshow":[
+        "/img/slides/zoo-1.jpg",
+        "/img/slides/zoo-2.jpg",
+        "/img/slides/zoo-3.jpg"
+    ],
+    "services":[
+        {
+            "title":"Transportation",
+            "intro":"We can provide a multitude of transportation solutions for different party sizes.",
+            "lists":[
+                "Rides to and from the zoo",
+                "Strollers and carts",
+                "4-person bike rentals"
+            ],
+            "image":"/img/zoopage/transportation.jpg",
+            "show":"show"
+        },
+        {
+            "title":"Animal Experiences",
+            "intro":"A variety of upclose and personal experiences with different species of animals and creatures! Feed, pet, and get close to some amazing beings",
+            "lists":[
+                "Giraffe Feeding",
+                "Pet a crocodile",
+                "Hold a python"
+            ],
+            "image":"/img/zoopage/animals.jpg"
+        },
+        {
+            "title":"Shows",
+            "intro":"Be in the front row of a vareity of shows in Miami zoo! Educational movies and films, animals doing tricks, and tour guides telling you about the zoos wonderful residents",
+            "lists":[
+                "About Bees Show",
+                "Personal tour guides",
+                "See the gorrillas"
+            ],
+            "image":"/img/zoopage/shows.jpg"
+        },
+        {
+            "title":"Shopping",
+            "intro":"Visit our gift shop and kiosks all around the zoo! Collect limited time coins, and buy souvenirs of your favorite animals!",
+            "lists":[
+                "Food and Snacks",
+                "Collectable and memorative items",
+                "Animal plushies"
+            ],
+            "image":"/img/zoopage/gifts.jpg"
+        }
+    ],
+    "packages":[
+        {
+            "title":"Tickets only",
+            "image":"/img/zoopage/ticket.jpg",
+            "text":"A single entry ticket to the zoo",
+            "price":"50",
+            "duration":"1 day"
+        },
+        {
+            "title":"Two day pass",
+            "image":"/img/zoopage/weekend.jpg",
+            "text":"A wonderful weekend at the zoo",
+            "price":"90",
+            "duration":"2 day"
+        },
+        {
+            "title":"Island of Birds",
+            "image":"/img/zoopage/birds.jpg",
+            "text":"A wonderful day learning about and getting to know the many different bird of the world",
+            "price":"150",
+            "duration":"1 day"
+        },
+        {
+            "title":"Big Cats Day",
+            "image":"/img/zoopage/lion.jpg",
+            "text":"Get up close and personal with the majestic big cats!",
+            "price":"400",
+            "duration":"1 day"
+        },
+        {
+            "title":"Fish Galore",
+            "image":"/img/zoopage/fish.jpg",
+            "text":"Dive deep into the oceans of the world to see all the different types of sea creatures!",
+            "price":"300",
+            "duration":"1 day"
+        },
+        {
+            "title":"Asian Wonders",
+            "image":"/img/zoopage/panda.jpg",
+            "text":"A wonderful day learning about the beasts of the far east.",
+            "price":"100",
+            "duration":"1 day"
+        }
+    ]
+}

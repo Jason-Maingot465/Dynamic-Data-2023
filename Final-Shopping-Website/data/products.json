@@ -1,0 +1,617 @@
+{
+    "products":
+    [
+        {
+            "id":"1",
+            "name":"Strawberries",
+            "category":"fruit",
+            "featured":true,
+            "slideshow":true,
+            "price":"$5.00",
+            "short-description":"Sweet strawberries",
+            "long-description":"A bunch of super sweet, delicious strawberries.",
+            "images":[
+                {"image":"strawberries0.jpg"},
+                {"image":"strawberries1.jpg"},
+                {"image":"strawberries2.jpg"},
+                {"image":"strawberries3.jpg"},
+                {"image":"strawberries4.jpg"}
+            ]
+        },
+        {
+            "id":"2",
+            "name":"Bananas",
+            "category":"fruit",
+            "featured":false,
+            "slideshow":false,
+            "price":"$4.50",
+            "short-description":"A bunch of bananas",
+            "long-description":"Go absolutely bananas for these amazing bananas!",
+            "images":[
+                {"image":"bananas0.jpg"},
+                {"image":"bananas1.jpg"},
+                {"image":"bananas2.jpg"},
+                {"image":"bananas3.jpg"},
+                {"image":"bananas4.jpg"}
+            ]
+        },
+        {
+            "id":"3",
+            "name":"Apples",
+            "category":"fruit",
+            "featured":false,
+            "slideshow":false,
+            "price":"$2.50",
+            "short-description":"A couple apples",
+            "long-description":"An apple a day keeps the doctor away!",
+            "images":[
+                {"image":"apples0.jpg"},
+                {"image":"apples1.jpg"},
+                {"image":"apples2.jpg"},
+                {"image":"apples3.jpg"},
+                {"image":"apples4.jpg"}
+            ]
+        },
+        {
+            "id":"4",
+            "name":"Oranges",
+            "category":"fruit",
+            "featured":false,
+            "slideshow":false,
+            "price":"$3.00",
+            "short-description":"A very orange orange",
+            "long-description":"An orange: the fruit, not the color.",
+            "images":[
+                {"image":"oranges0.jpg"},
+                {"image":"oranges1.jpg"},
+                {"image":"oranges2.jpg"},
+                {"image":"oranges3.jpg"},
+                {"image":"oranges4.jpg"}
+            ]
+        },
+        {
+            "id":"5",
+            "name":"Pineapple",
+            "category":"fruit",
+            "featured":false,
+            "slideshow":false,
+            "price":"$6.50",
+            "short-description":"A big, juicy pineapple",
+            "long-description":"An absolutly great deal for an amazing pineapple.",
+            "images":[
+                {"image":"pineapples0.jpg"},
+                {"image":"pineapples1.jpg"},
+                {"image":"pineapples2.jpg"},
+                {"image":"pineapples3.jpg"},
+                {"image":"pineapples4.jpg"}
+            ]
+        },
+        {
+            "id":"6",
+            "name":"Cherries",
+            "category":"fruit",
+            "featured":false,
+            "slideshow":false,
+            "price":"$4.00",
+            "short-description":"A big bag of cherries",
+            "long-description":"A large helping of sweet, pit free, all natural cherries!",
+            "images":[
+                {"image":"cherries0.jpg"},
+                {"image":"cherries1.jpg"},
+                {"image":"cherries2.jpg"},
+                {"image":"cherries3.jpg"},
+                {"image":"cherries4.jpg"}
+            ]
+        },
+        {
+            "id":"7",
+            "name":"Kiwi",
+            "category":"fruit",
+            "featured":false,
+            "slideshow":false,
+            "price":"$1.50",
+            "short-description":"A fuzzy and ripe kiwi",
+            "long-description":"A great fruit and addition to any meal!",
+            "images":[
+                {"image":"kiwis0.jpg"},
+                {"image":"kiwis1.jpg"},
+                {"image":"kiwis2.jpg"},
+                {"image":"kiwis3.jpg"},
+                {"image":"kiwis4.jpg"}
+            ]
+        },
+        {
+            "id":"8",
+            "name":"Blackberries",
+            "category":"fruit",
+            "featured":false,
+            "slideshow":false,
+            "price":"$5.00",
+            "short-description":"Some dark, tart blackberries",
+            "long-description":"Very tart and goes great on many desserts, also great with yogurt!",
+            "images":[
+                {"image":"blackberries0.jpg"},
+                {"image":"blackberries1.jpg"},
+                {"image":"blackberries2.jpg"},
+                {"image":"blackberries3.jpg"},
+                {"image":"blackberries4.jpg"}
+            ]
+        },
+        {
+            "id":"9",
+            "name":"Raspberries",
+            "category":"fruit",
+            "featured":false,
+            "slideshow":false,
+            "price":"$4.25",
+            "short-description":"A small box of raspberries",
+            "long-description":"Delicious, healthy, and a great afternoon snack!",
+            "images":[
+                {"image":"raspberries0.jpg"},
+                {"image":"raspberries1.jpg"},
+                {"image":"raspberries2.jpg"},
+                {"image":"raspberries3.jpg"},
+                {"image":"raspberries4.jpg"}
+            ]
+        },
+        {
+            "id":"10",
+            "name":"Mango",
+            "category":"fruit",
+            "featured":false,
+            "slideshow":false,
+            "price":"$3.25",
+            "short-description":"A ripe mango",
+            "long-description":"A great source of vitamins and its very delicious!",
+            "images":[
+                {"image":"mango0.jpg"},
+                {"image":"mango1.jpg"},
+                {"image":"mango2.jpg"},
+                {"image":"mango3.jpg"},
+                {"image":"mango4.jpg"}
+            ]
+        },
+        {
+            "id":"11",
+            "name":"Grapefruit",
+            "category":"fruit",
+            "featured":false,
+            "slideshow":false,
+            "price":"$8.00",
+            "short-description":"A big grapefruit",
+            "long-description":"A very large grapefruit, with a very sour tang!",
+            "images":[
+                {"image":"grapefruits0.jpg"},
+                {"image":"grapefruits1.jpg"},
+                {"image":"grapefruits2.jpg"},
+                {"image":"grapefruits3.jpg"},
+                {"image":"grapefruits4.jpg"}
+            ]
+        },
+        {
+            "id":"12",
+            "name":"Grapes",
+            "category":"fruit",
+            "featured":false,
+            "slideshow":false,
+            "price":"$7.50",
+            "short-description":"A bunch grapes",
+            "long-description":"A large bunch of purple, seedless, and juicy grapes!",
+            "images":[
+                {"image":"grapes0.jpg"},
+                {"image":"grapes1.jpg"},
+                {"image":"grapes2.jpg"},
+                {"image":"grapes3.jpg"},
+                {"image":"grapes4.jpg"}
+            ]
+        },
+        {
+            "id":"13",
+            "name":"Chicken Wings",
+            "category":"meat",
+            "featured":false,
+            "slideshow":false,
+            "price":"$10.00",
+            "short-description":"A pack of chicken wings",
+            "long-description":"A great deal of fresh chicken wings, smeared in a signature sauce!",
+            "images":[
+                {"image":"chicken-wings0.jpg"},
+                {"image":"chicken-wings1.jpg"},
+                {"image":"chicken-wings2.jpg"},
+                {"image":"chicken-wings3.jpg"},
+                {"image":"chicken-wings4.jpg"}
+            ]
+        },
+        {
+            "id":"14",
+            "name":"Pork Chops",
+            "category":"meat",
+            "featured":false,
+            "slideshow":false,
+            "price":"$14.50",
+            "short-description":"A couple pork chops",
+            "long-description":"Amazing high-grade, never-frozen pork chops",
+            "images":[
+                {"image":"pork-chops0.jpg"},
+                {"image":"pork-chops1.jpg"},
+                {"image":"pork-chops2.jpg"},
+                {"image":"pork-chops3.jpg"},
+                {"image":"pork-chops4.jpg"}
+            ]
+        },
+        {
+            "id":"15",
+            "name":"Bacon",
+            "category":"meat",
+            "featured":false,
+            "slideshow":false,
+            "price":"$10.50",
+            "short-description":"Strips of quality bacon",
+            "long-description":"Whats a good breakfast without a few slices of bacon?",
+            "images":[
+                {"image":"bacon0.jpg"},
+                {"image":"bacon1.jpg"},
+                {"image":"bacon2.jpg"},
+                {"image":"bacon3.jpg"},
+                {"image":"bacon4.jpg"}
+            ]
+        },
+        {
+            "id":"16",
+            "name":"Tuna",
+            "category":"meat",
+            "featured":false,
+            "slideshow":false,
+            "price":"$24.00",
+            "short-description":"A large peice of tuna",
+            "long-description":"Freshly caught, sushi-grade tuna at a great price",
+            "images":[
+                {"image":"tuna0.jpg"},
+                {"image":"tuna1.jpg"},
+                {"image":"tuna2.jpg"},
+                {"image":"tuna3.jpg"},
+                {"image":"tuna4.jpg"}
+            ]
+        },
+        {
+            "id":"17",
+            "name":"Salmon",
+            "category":"meat",
+            "featured":false,
+            "slideshow":false,
+            "price":"$9.50",
+            "short-description":"A filet of salmon",
+            "long-description":"A frozen filet of salmon, already scaled for your convinience.",
+            "images":[
+                {"image":"salmon0.jpg"},
+                {"image":"salmon1.jpg"},
+                {"image":"salmon2.jpg"},
+                {"image":"salmon3.jpg"},
+                {"image":"salmon4.jpg"}
+            ]
+        },
+        {
+            "id":"18",
+            "name":"A-5 Wagyu",
+            "category":"meat",
+            "featured":false,
+            "slideshow":false,
+            "price":"$50.00",
+            "short-description":"A piece of A-5 wagyu",
+            "long-description":"One of the best peices of meat you'll ever try!",
+            "images":[
+                {"image":"wagyu0.jpg"},
+                {"image":"wagyu1.jpg"},
+                {"image":"wagyu2.jpg"},
+                {"image":"wagyu3.jpg"},
+                {"image":"wagyu4.jpg"}
+            ]
+        },
+        {
+            "id":"19",
+            "name":"T-bone Steak",
+            "category":"meat",
+            "featured":false,
+            "slideshow":false,
+            "price":"$18.50",
+            "short-description":"A t-bone steak",
+            "long-description":"A full prime grade t-bone steak at a great price!",
+            "images":[
+                {"image":"tbone0.jpg"},
+                {"image":"tbone1.jpg"},
+                {"image":"tbone2.jpg"},
+                {"image":"tbone3.jpg"},
+                {"image":"tbone4.jpg"}
+            ]
+        },
+        {
+            "id":"20",
+            "name":"Baby Back Ribs",
+            "category":"meat",
+            "featured":false,
+            "slideshow":false,
+            "price":"$20.50",
+            "short-description":"A rack of ribs",
+            "long-description":"A full rack of beef ribs, smoked for over 12 hours!",
+            "images":[
+                {"image":"ribs0.jpg"},
+                {"image":"ribs1.jpg"},
+                {"image":"ribs2.jpg"},
+                {"image":"ribs3.jpg"},
+                {"image":"ribs4.jpg"}
+            ]
+        },
+        {
+            "id":"21",
+            "name":"Turkey",
+            "category":"meat",
+            "featured":false,
+            "slideshow":false,
+            "price":"$30.50",
+            "short-description":"A whole turkey",
+            "long-description":"A large premarinated turkey, just in time for Thanksgiving!",
+            "images":[
+                {"image":"turkey0.jpg"},
+                {"image":"turkey1.jpg"},
+                {"image":"turkey2.jpg"},
+                {"image":"turkey3.jpg"},
+                {"image":"turkey4.jpg"}
+            ]
+        },
+        {
+            "id":"22",
+            "name":"Cod",
+            "category":"meat",
+            "featured":false,
+            "slideshow":false,
+            "price":"$15.25",
+            "short-description":"A filet of cod",
+            "long-description":"Freah and already deboned, ready to cook!",
+            "images":[
+                {"image":"cod0.jpg"},
+                {"image":"cod1.jpg"},
+                {"image":"cod2.jpg"},
+                {"image":"cod3.jpg"},
+                {"image":"cod4.jpg"}
+            ]
+        },
+        {
+            "id":"23",
+            "name":"Sausages",
+            "category":"meat",
+            "featured":false,
+            "slideshow":false,
+            "price":"$6.50",
+            "short-description":"A variety of sausages",
+            "long-description":"A large variety of sausages, with different meats and spices!",
+            "images":[
+                {"image":"sausages0.jpg"},
+                {"image":"sausages1.jpg"},
+                {"image":"sausages2.jpg"},
+                {"image":"sausages3.jpg"},
+                {"image":"sausages4.jpg"}
+            ]
+        },
+        {
+            "id":"24",
+            "name":"Beef Patties",
+            "category":"meat",
+            "featured":false,
+            "slideshow":false,
+            "price":"$17.75",
+            "short-description":"A pack of burger patties",
+            "long-description":"Fresh never-frozen beef patties, comes in a pack of 12",
+            "images":[
+                {"image":"burgers0.jpg"},
+                {"image":"burgers1.jpg"},
+                {"image":"burgers2.jpg"},
+                {"image":"burgers3.jpg"},
+                {"image":"burgers4.jpg"}
+            ]
+        },
+        {
+            "id":"25",
+            "name":"Vanila Ice Cream",
+            "category":"dessert",
+            "featured":false,
+            "slideshow":false,
+            "price":"$9.50",
+            "short-description":"A pint of vanila ice cream",
+            "long-description":"A pint of vanila ice cream, made with real vanila beans!",
+            "images":[
+                {"image":"vanilla-icecream0.jpg"},
+                {"image":"vanilla-icecream1.jpg"},
+                {"image":"vanilla-icecream2.jpg"},
+                {"image":"vanilla-icecream3.jpg"},
+                {"image":"vanilla-icecream4.jpg"}
+            ]
+        },
+        {
+            "id":"26",
+            "name":"Chocolate Ice Cream",
+            "category":"dessert",
+            "featured":false,
+            "slideshow":false,
+            "price":"$8.50",
+            "short-description":"A pint of chocolate ice cream",
+            "long-description":"A pint of chocolate ice cream, made with real cacao",
+            "images":[
+                {"image":"chocolate-icecream0.jpg"},
+                {"image":"chocolate-icecream1.jpg"},
+                {"image":"chocolate-icecream2.jpg"},
+                {"image":"chocolate-icecream3.jpg"},
+                {"image":"chocolate-icecream4.jpg"}
+            ]
+        },
+        {
+            "id":"27",
+            "name":"Strawberry Ice Cream",
+            "category":"dessert",
+            "featured":false,
+            "slideshow":false,
+            "price":"$8.75",
+            "short-description":"A pint of stawberry ice cream",
+            "long-description":"A pint of stawberry ice cream, with chunks of fresh strawberries!",
+            "images":[
+                {"image":"strawberry-icecream0.jpg"},
+                {"image":"strawberry-icecream1.jpg"},
+                {"image":"strawberry-icecream2.jpg"},
+                {"image":"strawberry-icecream3.jpg"},
+                {"image":"strawberry-icecream4.jpg"}
+            ]
+        },
+        {
+            "id":"28",
+            "name":"Popsicle",
+            "category":"dessert",
+            "featured":false,
+            "slideshow":false,
+            "price":"$10.50",
+            "short-description":"Assorted popsicles",
+            "long-description":"A pack of assorted popsicles, great on a hot summer day!",
+            "images":[
+                {"image":"popsicles0.jpg"},
+                {"image":"popsicles1.jpg"},
+                {"image":"popsicles2.jpg"},
+                {"image":"popsicles3.jpg"},
+                {"image":"popsicles4.jpg"}
+            ]
+        },
+        {
+            "id":"29",
+            "name":"Milk Chocolate",
+            "category":"dessert",
+            "featured":false,
+            "slideshow":false,
+            "price":"$4.50",
+            "short-description":"A pack of milk chocolate bars",
+            "long-description":"A pack of delicious creamy milk chocolate bars.",
+            "images":[
+                {"image":"milk-chocolate0.jpg"},
+                {"image":"milk-chocolate1.jpg"},
+                {"image":"milk-chocolate2.jpg"},
+                {"image":"milk-chocolate3.jpg"},
+                {"image":"milk-chocolate4.jpg"}
+            ]
+        },
+        {
+            "id":"30",
+            "name":"Dark Chocolate",
+            "category":"dessert",
+            "featured":false,
+            "slideshow":false,
+            "price":"$5.50",
+            "short-description":"A pack of dark chocolate bars",
+            "long-description":"A pack of dark chocolate bars, made from high quality cacao",
+            "images":[
+                {"image":"dark-chocolate0.jpg"},
+                {"image":"dark-chocolate1.jpg"},
+                {"image":"dark-chocolate2.jpg"},
+                {"image":"dark-chocolate3.jpg"},
+                {"image":"dark-chocolate4.jpg"}
+            ]
+        },
+        {
+            "id":"31",
+            "name":"Apple Pie",
+            "category":"dessert",
+            "featured":false,
+            "slideshow":false,
+            "price":"$22.00",
+            "short-description":"An apple pie",
+            "long-description":"A warm, gooey apple pie with a tasty graham cracker crust!",
+            "images":[
+                {"image":"apple-pie0.jpg"},
+                {"image":"apple-pie1.jpg"},
+                {"image":"apple-pie2.jpg"},
+                {"image":"apple-pie3.jpg"},
+                {"image":"apple-pie4.jpg"}
+            ]
+        },
+        {
+            "id":"32",
+            "name":"Key Lime Pie",
+            "category":"dessert",
+            "featured":false,
+            "slideshow":false,
+            "price":"$19.00",
+            "short-description":"A key lime pie",
+            "long-description":"A tangy key lime pie with whipped cream, made from key limes straight from the Florida Keys!",
+            "images":[
+                {"image":"key-lime-pie0.jpg"},
+                {"image":"key-lime-pie1.jpg"},
+                {"image":"key-lime-pie2.jpg"},
+                {"image":"key-lime-pie3.jpg"},
+                {"image":"key-lime-pie4.jpg"}
+            ]
+        },
+        {
+            "id":"33",
+            "name":"Lemon Meringue Pie",
+            "category":"dessert",
+            "featured":false,
+            "slideshow":false,
+            "price":"$19.75",
+            "short-description":"A lemon flavored pie",
+            "long-description":"A tangy lemon meringue pie with whipped cream, made with freash lemons!",
+            "images":[
+                {"image":"lemon-meringue-pie0.jpg"},
+                {"image":"lemon-meringue-pie1.jpg"},
+                {"image":"lemon-meringue-pie2.jpg"},
+                {"image":"lemon-meringue-pie3.jpg"},
+                {"image":"lemon-meringue-pie4.jpg"}
+            ]
+        },
+        {
+            "id":"34",
+            "name":"Cheesecake",
+            "category":"dessert",
+            "featured":false,
+            "slideshow":false,
+            "price":"$18.00",
+            "short-description":"A cheesecake",
+            "long-description":"A tangy and ricj cheesecake from our best baker!",
+            "images":[
+                {"image":"cheesecake0.jpg"},
+                {"image":"cheesecake1.jpg"},
+                {"image":"cheesecake2.jpg"},
+                {"image":"cheesecake3.jpg"},
+                {"image":"cheesecake4.jpg"}
+            ]
+        },
+        {
+            "id":"35",
+            "name":"Hot Cocoa Powder",
+            "category":"dessert",
+            "featured":false,
+            "slideshow":false,
+            "price":"$12.25",
+            "short-description":"A can of hot cocoa powder",
+            "long-description":"A can of hot cocoa powder, made from real cocoa.",
+            "images":[
+                {"image":"hot-chocolate0.jpg"},
+                {"image":"hot-chocolate1.jpg"},
+                {"image":"hot-chocolate2.jpg"},
+                {"image":"hot-chocolate3.jpg"},
+                {"image":"hot-chocolate4.jpg"}
+            ]
+        },
+        {
+            "id":"36",
+            "name":"Assorted Cookies",
+            "category":"dessert",
+            "featured":false,
+            "slideshow":false,
+            "price":"$15.00",
+            "short-description":"A box of assorted cookies",
+            "long-description":"A box of assorted cookies, no two are alike, made by our best bakers!",
+            "images":[
+                {"image":"cookies0.jpg"},
+                {"image":"cookies1.jpg"},
+                {"image":"cookies2.jpg"},
+                {"image":"cookies3.jpg"},
+                {"image":"cookies4.jpg"}
+            ]
+        }
+    ]
+}
